@@ -20,24 +20,31 @@ namespace utilityAccounting.Controllers
 
         [Route("get")]
         [HttpGet]
-        public async Task<ActionResult<int>> Get()
+        public async Task<ActionResult<int>> Get(int id)
         {
-            return 0;
+            Building? building = db.Buildings.FirstOrDefault(x => x.Id == id);
+
+            if (building == null) return BadRequest("Неверные данные");
+
+            return Ok(building);
         }
 
-        [Route("count")]
+        [Route("stages")]
         [HttpGet]
-        public async Task<ActionResult<int[]>> GetCount(int id)
+        public async Task<ActionResult<int[]>> GetStages(int id)
         {
             if (!db.Buildings.Any(x => x.Id == id)) return BadRequest("Объект не найден");
 
-            List<Stage> stagesCount = db.Stages.Where(x => x.BuildingId == id).ToList();
+            List<Stage> stages = db.Stages.Where(x => x.BuildingId == id).ToList();
 
-            int[] result = new int[2];
-            result[0] = stagesCount.Count();
-            result[1] = stagesCount[0].Tariffs.Length;
+            return Ok(stages);
+        }
 
-            return Ok(result);
+        [Route("list")]
+        [HttpGet]
+        public async Task<ActionResult<List<Building>>> GetAll()
+        {
+            return Ok(db.Buildings.ToList());
         }
 
         [Route("total-debt")]

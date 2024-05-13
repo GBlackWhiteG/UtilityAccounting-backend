@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\utilityAccounting.csproj": {}
+    "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/utilityAccounting.csproj": {}
   },
   "projects": {
-    "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\utilityAccounting.csproj": {
+    "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/utilityAccounting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\utilityAccounting.csproj",
+        "projectUniqueName": "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/utilityAccounting.csproj",
         "projectName": "utilityAccounting",
-        "projectPath": "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\utilityAccounting.csproj",
-        "packagesPath": "C:\\Users\\Salavatus\\.nuget\\packages\\",
-        "outputPath": "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\obj\\",
+        "projectPath": "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/utilityAccounting.csproj",
+        "packagesPath": "/Users/salavatik/.nuget/packages/",
+        "outputPath": "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Salavatus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/salavatik/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
         }
       }
     }

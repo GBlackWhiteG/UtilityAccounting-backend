@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{63EEB4D0-A67A-4D58-A71F-10AD8104E47D}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="utilityAccounting/Models/Stage.cs">
+    <Files>
+      <File FileName="utilityAccounting/appsettings.json" />
+      <File FileName="utilityAccounting/Models/ApplicationContext.cs" />
+      <File FileName="utilityAccounting/Controllers/BuildingController.cs" Line="40" Column="31" />
+      <File FileName="utilityAccounting/Controllers/StageController.cs" />
+      <File FileName="utilityAccounting/Models/Building.cs" />
+      <File FileName="utilityAccounting/Models/Stage.cs" Line="1" Column="1" />
+      <File FileName="utilityAccounting/Program.cs" />
+      <File FileName="utilityAccounting/Types/IResult.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="utilityAccounting">
+            <Node name="utilityAccounting" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Stage.cs" selected="True" />
+              </Node>
+              <Node name="Types" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.utilityAccounting PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
