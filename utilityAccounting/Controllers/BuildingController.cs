@@ -70,6 +70,7 @@ namespace utilityAccounting.Controllers
 
             Building building = new()
             {
+                Coordinates = model.Coordinates,
                 Address = model.Address,
             };
 

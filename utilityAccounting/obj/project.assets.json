@@ -2520,25 +2520,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/salavatik/.nuget/packages/": {}
+    "C:\\Users\\Salavatus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/utilityAccounting.csproj",
+      "projectUniqueName": "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\utilityAccounting.csproj",
       "projectName": "utilityAccounting",
-      "projectPath": "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/utilityAccounting.csproj",
-      "packagesPath": "/Users/salavatik/.nuget/packages/",
-      "outputPath": "/Users/salavatik/Documents/УП 3 курс/back/UtilityAccounting/utilityAccounting/obj/",
+      "projectPath": "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\utilityAccounting.csproj",
+      "packagesPath": "C:\\Users\\Salavatus\\.nuget\\packages\\",
+      "outputPath": "D:\\programmingFiles\\C#projects\\Projects\\utilityAccounting\\utilityAccounting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/salavatik/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Salavatus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2599,7 +2600,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
