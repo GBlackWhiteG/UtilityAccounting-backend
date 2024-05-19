@@ -9,6 +9,6 @@ namespace utilityAccounting.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public double[] Coordinates { get; set; }
-        public string Address {  get; set; }
+        public string? Address {  get; set; }
     }
 }

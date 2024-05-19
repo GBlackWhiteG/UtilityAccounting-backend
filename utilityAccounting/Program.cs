@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using utilityAccounting.Models;
+using OfficeOpenXml;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
 app.UseHttpsRedirection();
 

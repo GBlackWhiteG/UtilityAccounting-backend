@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Data.Entity;
+﻿using Microsoft.AspNetCore.Mvc;
 using utilityAccounting.Models;
 using utilityAccounting.Services;
 using utilityAccounting.Types;
